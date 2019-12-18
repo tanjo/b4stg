@@ -5,7 +5,7 @@ This repository is Node.js package that generate Bootstrap4 starter template.
 ## Run
 
 ```
-npx github:tanjo/b4stg b4stg hoge.html
+npx github:tanjo/b4stg -c b4stg hoge.html
 ```
 
 ## References
