@@ -1,6 +1,6 @@
 {
   "name": "b4stg",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This repository is Node.js package that generate Bootstrap4 starter template.",
   "bin": {
     "b4stg": "index.js"
