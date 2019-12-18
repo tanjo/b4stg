@@ -1,0 +1,25 @@
+{
+  "name": "b4stg",
+  "version": "1.0.0",
+  "description": "This repository is Node.js package that generate Bootstrap4 starter template.",
+  "bin": {
+    "b4stg": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanjo/b4stg.git"
+  },
+  "author": "tanjo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanjo/b4stg/issues"
+  },
+  "homepage": "https://github.com/tanjo/b4stg#readme",
+  "dependencies": {
+    "commander": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=12.12.0",
+    "npm": ">=6.13.4"
+  }
+}
