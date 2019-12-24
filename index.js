@@ -29,7 +29,7 @@ const main = () => {
   try {
     switch (true) {
       case /html/i.test(extname):
-        fs.copyFileSync(path.resolve("./templates/HTML"), destination, fs.constants.COPYFILE_EXCL);
+        fs.copyFileSync(__dirname + "/templates/HTML", destination, fs.constants.COPYFILE_EXCL);
         console.log(`[Info]: Generate ${destination}`)
         return;
     }
